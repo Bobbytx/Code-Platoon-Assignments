@@ -33,8 +33,29 @@ class LinkedList:
         return None
         
 
-    def remove(self, value):
-        pass
+def remove(self, value):
+    # Handle the case where the head is the node to be removed
+    if self.head and self.head.value == value:
+        self.head = self.head.next
+        return
+
+    # Initialize pointers
+    previous_node = None
+    current_node = self.head
+
+    # Traverse the list to find the node to remove
+    while current_node is not None:
+        if current_node.value == value:
+            # Remove the node by updating the 'next' pointer of the previous node
+            previous_node.next = current_node.next
+            return
+        # Move to the next node
+        previous_node = current_node
+        current_node = current_node.next
+
+    # Return None if the value was not found
+    return None
+    
 
     def size(self):
         pass

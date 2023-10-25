@@ -1,0 +1,22 @@
+/* to show your CSS things, you'll likely need to use this file */
+
+div {
+    word-wrap: break-word;
+  }
+
+pre {
+    white-space: pre-wrap;
+}  
+
+body {
+    background-color: rgb(193, 206, 209);
+}
+
+.underline-text {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+h2 {
+    color: orangered;
+}
