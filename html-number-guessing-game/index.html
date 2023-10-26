@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>TITLE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Your link to your CSS file -->
+    <link rel="stylesheet" href="">
+    <script src="./app.js" async defer></script>
+  </head>
+  <body>
+    <!-- your HTML should go here -->
+    <nav>
+      <h1>Let's Play the Guessing Number Game!</h1>
+    </nav>
+    <!-- <form onsubmit="randomNumber(event)"> -->
+      <input id="inputId" placeholder="Enter a number">
+      <button id="submitNum" onclick="randomNumber(event)">Submit Number</button>
+      <button id="reset" onclick="numberGen(event)">Click to Play Again</button>
+    <!-- </form> -->
+    <div id="message">
+      Guess a number
+    </div>
+  </body>
+</html>
