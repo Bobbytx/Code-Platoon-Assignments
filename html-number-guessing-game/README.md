@@ -109,3 +109,6 @@ Lastly, insert or edit an HTML element telling the user to guess higher, lower, 
 * [Using Javascript to interact with the DOM](https://www.w3schools.com/js/js_htmldom_elements.asp)
 * [onClick events](https://www.w3schools.com/jsref/event_onclick.asp)
 * [Document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+
+
+One solution is to divide your group in slack huddles but have the whole team in zoom. That’s how our group worked on our project and that went very well.

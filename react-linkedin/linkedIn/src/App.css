@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(226, 222, 222);
+    margin: 0;
+}
+
+.centerAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile-header {
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    
+}
+
+.about-me {
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 8px;
+}
+
+.education {
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 8px;
+}
+
+.job-history {
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 8px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 150px;
+    border-radius:50%;
+    z-index: 2;
+    top: -40px;
+    left: 20px;
+    position: relative;
+}
+
+.cover-photo {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.profile-info {
+    margin-left: 10px;
+}
+

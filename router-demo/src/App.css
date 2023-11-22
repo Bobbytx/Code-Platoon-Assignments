@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(6, 6, 51);
+}
+
+.carousel {
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 48pt;
+    color: rgb(48, 216, 48);
+    text-align: center;
+}
+
+.main-nav {
+    background-color: yellow;
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    font-size: 32pt;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0 20px;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: rgb(6, 6, 51);
+}
+
+.card {
+    transition: border 0.3s;
+    margin-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card:hover {
+    border: 2px solid red;
+}
+
+.charHeader {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bodyText {
+    color: white;
+    text-align: center;
+    font-size: 38pt;
+}

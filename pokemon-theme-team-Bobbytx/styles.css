@@ -1,0 +1,16 @@
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover {
+    background-color: red;
+}
+
+h1 {
+    font-family: 'Segoe UI', Geneva, sans-serif;
+    
+}
